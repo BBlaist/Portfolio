@@ -1,0 +1,12 @@
+.action-wrapper {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin-top: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .action-wrapper a {
+    color: white;
+  }
