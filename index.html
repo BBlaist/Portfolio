@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
-<script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <script src="src/javascript/script.js"></script>
 </head>
-<body>
-<header class="sticky-header"> 
-    <ul>
-        <li><a href="#" style="color: #FFA500;">Home</a></li>
-        <li><a href="#">Projecten</a></li>
-        <li><a href="overmij.html">Over mij</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-</header>
-<main class="main-content">
-<div class="wrapper">
-<div class="content-left">
-    <img src="img/1144760.png">
 
-    <div class="button-wrapper">
-        <a href="overmij.html"><button class="button-mij">Over mij</button></a>
-        <a href="projecten.html"><button class="button-project">Projecten</button></a>
-    </div>
-</div>
-<div class="content-right">
-        <div class="greeting">Hallo,</div>
-        <div class="name">mijn naam is Dirk</div>
-        <div class="info">Ik volg de opleiding Software Development op het Grafisch Lyceum Rotterdam</div>
-    </div>
-</div>
-<footer>
-</footer>
-</main>
+<body>
+    <header class="sticky-header">
+        <ul>
+            <li><a href="#" style="color: #FFA500;">Home</a></li>
+            <li><a href="src/html/projecten.php" style="color: black;">Projecten</a></li>
+            <li><a href="src/html/overmij.html" style="color: black;">Over mij</a></li>
+            <li><a href="src/html/contact.php" style="color: black;">Contact</a></li>
+        </ul>
+    </header>
+    <main class="main-content">
+        <div class="wrapper">
+            <div class="content-right">
+                <div class="greeting">Hallo,</div>
+                <div class="name">mijn naam is Dirk</div>
+                <div class="info">Ik volg de opleiding Software Development op het Grafisch Lyceum Rotterdam</div>
+            </div>
+            <div class="content-left">
+                <div class="bijnaHoofddotjpeg">
+                    <img class="Hoofddotjpeg" src="src/img/Hoofd.jpeg">
+                </div>
+
+                <div class="button-wrapper">
+                    <a href="src/html/overmij.html"><button class="button-mij">Over mij</button></a>
+                    <a href="src/html/projecten.php"><button class="button-project">Projecten</button></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+        </footer>
+    </main>
 </body>
+
 </html>
